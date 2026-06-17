@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   color-scheme: light;
   --ink: #10213f;
   --muted: #5f6f88;
@@ -27,6 +27,7 @@ body {
 }
 
 .site-header {
+  position: relative;
   border-bottom: 1px solid var(--line);
   margin-bottom: 32px;
   padding-bottom: 24px;
@@ -142,10 +143,42 @@ a {
   padding-top: 20px;
 }
 
+.lang-switch {
+  align-items: center;
+  display: inline-flex;
+  font-family: Arial, sans-serif;
+  gap: 6px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.lang-switch a,
+.lang-switch span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.lang-switch .active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
 @media (max-width: 560px) {
   .site-shell {
     width: min(100% - 24px, 920px);
     padding-top: 28px;
+  }
+
+  .lang-switch {
+    margin-top: 16px;
+    position: static;
   }
 
   p,

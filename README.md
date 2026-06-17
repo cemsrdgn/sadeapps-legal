@@ -1,4 +1,4 @@
-﻿# Sade Apps Legal Pages
+# Sade Apps Legal Pages
 
 Public legal pages for Sade Apps mobile applications.
 
@@ -9,3 +9,10 @@ Public legal pages for Sade Apps mobile applications.
 - Terms of Use: `docpin/terms.html`
 
 Support: sadeapps.help@gmail.com
+
+## Turkish pages
+
+- `index-tr.html`
+- `docpin/privacy-policy-tr.html`
+- `docpin/data-deletion-tr.html`
+- `docpin/terms-tr.html`
