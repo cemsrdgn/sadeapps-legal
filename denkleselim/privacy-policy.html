@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denkleşelim Privacy Policy</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <div class="brand">Sade Apps / Denkleşelim</div>
+      <nav class="lang-switch" aria-label="Language">
+        <span class="active" aria-current="page">EN</span>
+        <a href="privacy-policy-tr.html" lang="tr">TR</a>
+      </nav>
+      <h1>Privacy Policy</h1>
+      <p class="lead">This Privacy Policy explains how Denkleşelim handles information when you use the app.</p>
+      <p class="meta">Last updated: June 30, 2026</p>
+    </header>
+
+    <section>
+      <h2>Who We Are</h2>
+      <p>Denkleşelim is provided by Sade Apps. You can contact us at <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a>.</p>
+    </section>
+
+    <section>
+      <h2>What Denkleşelim Does</h2>
+      <p>Denkleşelim is a shared expense tracking and debt settlement app. It lets you create rooms with friends or groups, add expenses, split costs, and track who owes what — all without requiring a traditional account.</p>
+    </section>
+
+    <section>
+      <h2>Anonymous Authentication</h2>
+      <p>Denkleşelim does not require you to register with an email address or password. When you first open the app, an anonymous account is automatically created using Supabase Auth. This account is linked to your device and allows you to use all app features without sharing personally identifiable information.</p>
+      <p>If you choose to provide a display name or IBAN number within the app, this information is stored in our database and shared with other members of rooms you join.</p>
+    </section>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <h3>Information You Provide</h3>
+      <ul>
+        <li><strong>Display name:</strong> A name you choose to be shown to other users. You can use any name, including a pseudonym.</li>
+        <li><strong>IBAN (optional):</strong> If you choose to add your IBAN number for payment convenience, it is stored and can be shown to other room members. You control visibility via the "Show IBAN in rooms" setting.</li>
+        <li><strong>Expense data:</strong> Titles, amounts, dates, categories, and split information for expenses you add.</li>
+        <li><strong>Receipt photos (optional):</strong> If you attach a receipt photo to an expense, the image is uploaded to secure cloud storage (Supabase Storage).</li>
+      </ul>
+
+      <h3>Information Collected Automatically</h3>
+      <ul>
+        <li><strong>Anonymous user ID:</strong> A randomly generated UUID created by Supabase Auth to identify your anonymous session.</li>
+        <li><strong>Device push token (FCM):</strong> If you grant notification permission, your device's Firebase Cloud Messaging (FCM) token is stored to deliver push notifications such as expense additions, settlement reminders, and friend invites. You can disable notifications at any time in the app settings.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How We Use Your Information</h2>
+      <ul>
+        <li>To provide the core expense tracking and debt settlement functionality.</li>
+        <li>To send push notifications about expenses, settlements, and friend invites (only if you have granted notification permission).</li>
+        <li>To allow other members of shared rooms to see your display name, avatar, and optionally your IBAN.</li>
+        <li>To calculate and display debt balances between room members.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>Denkleşelim uses the following third-party services:</p>
+      <ul>
+        <li><strong>Supabase</strong> — Database, authentication, and file storage. Data is stored on Supabase-managed infrastructure. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Privacy Policy</a>.</li>
+        <li><strong>Firebase Cloud Messaging (FCM)</strong> — Push notification delivery by Google. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data Sharing</h2>
+      <p>We do not sell your personal information. Your expense data, display name, and IBAN (if provided and visible) are shared only with other members of rooms you explicitly join.</p>
+      <p>Your push token is used solely to deliver notifications and is not shared with third parties other than FCM for delivery purposes.</p>
+    </section>
+
+    <section>
+      <h2>Data Retention and Deletion</h2>
+      <p>Your data is retained as long as your anonymous account exists. Since there is no email-based account, deletion is handled by resetting the app data (clearing app storage on your device) or by contacting us.</p>
+      <p>If you want your data deleted from our servers, please contact us at <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a> and we will remove your data promptly.</p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>Denkleşelim is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <p>All data is transmitted over HTTPS. Our database uses Row Level Security (RLS) policies to ensure users can only access data they are authorized to see. Receipt photos are stored in a private bucket accessible only to room members.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

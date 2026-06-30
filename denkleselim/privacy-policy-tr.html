@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denkleşelim Gizlilik Politikası</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <div class="brand">Sade Apps / Denkleşelim</div>
+      <nav class="lang-switch" aria-label="Dil">
+        <a href="privacy-policy.html" lang="en">EN</a>
+        <span class="active" aria-current="page">TR</span>
+      </nav>
+      <h1>Gizlilik Politikası</h1>
+      <p class="lead">Bu Gizlilik Politikası, Denkleşelim uygulamasını kullandığınızda bilgilerinizin nasıl işlendiğini açıklamaktadır.</p>
+      <p class="meta">Son güncelleme: 30 Haziran 2026</p>
+    </header>
+
+    <section>
+      <h2>Biz Kimiz?</h2>
+      <p>Denkleşelim, Sade Apps tarafından sunulmaktadır. Bize <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a> adresinden ulaşabilirsiniz.</p>
+    </section>
+
+    <section>
+      <h2>Denkleşelim Nedir?</h2>
+      <p>Denkleşelim, ortak harcamaları takip etmenize ve borçları kolayca denkleştirmenize yarayan bir mobil uygulamadır. Arkadaşlarınızla veya gruplarla odalar oluşturabilir, harcama ekleyebilir, maliyetleri bölebilir ve kimin kime ne kadar borçlu olduğunu takip edebilirsiniz — geleneksel bir hesap oluşturmanız gerekmez.</p>
+    </section>
+
+    <section>
+      <h2>Anonim Kimlik Doğrulama</h2>
+      <p>Denkleşelim, e-posta adresi veya şifre ile kayıt gerektirmez. Uygulamayı ilk açtığınızda, Supabase Auth kullanılarak otomatik olarak anonim bir hesap oluşturulur. Bu hesap cihazınıza bağlıdır ve kişisel olarak tanımlanabilir bilgi paylaşmadan tüm uygulama özelliklerini kullanmanızı sağlar.</p>
+      <p>Uygulama içinde görünen ad veya IBAN numarası sağlamayı tercih ederseniz, bu bilgiler veritabanımızda saklanır ve katıldığınız odaların diğer üyeleriyle paylaşılır.</p>
+    </section>
+
+    <section>
+      <h2>Topladığımız Bilgiler</h2>
+      <h3>Sizin Sağladığınız Bilgiler</h3>
+      <ul>
+        <li><strong>Görünen ad:</strong> Diğer kullanıcılara gösterilmek üzere seçtiğiniz bir isim. İstediğiniz herhangi bir isim ya da takma ad kullanabilirsiniz.</li>
+        <li><strong>IBAN (isteğe bağlı):</strong> Ödeme kolaylığı için IBAN numaranızı eklemek isterseniz, bu bilgi saklanır ve oda üyelerine gösterilebilir. Görünürlüğü "Odalarda IBAN'ımı göster" ayarından kontrol edebilirsiniz.</li>
+        <li><strong>Harcama verileri:</strong> Eklediğiniz harcamaların başlıkları, tutarları, tarihleri, kategorileri ve bölüşüm bilgileri.</li>
+        <li><strong>Fiş fotoğrafları (isteğe bağlı):</strong> Bir harcamaya fiş fotoğrafı eklerseniz, görsel güvenli bulut depolamaya (Supabase Storage) yüklenir.</li>
+      </ul>
+
+      <h3>Otomatik Olarak Toplanan Bilgiler</h3>
+      <ul>
+        <li><strong>Anonim kullanıcı kimliği:</strong> Anonim oturumunuzu tanımlamak için Supabase Auth tarafından oluşturulan rastgele bir UUID.</li>
+        <li><strong>Cihaz push token'ı (FCM):</strong> Bildirim iznini onaylarsanız, harcama bildirimleri, denkleşme hatırlatmaları ve arkadaş davetleri gibi anlık bildirimler göndermek için cihazınızın Firebase Cloud Messaging (FCM) token'ı saklanır. Bildirimleri uygulama ayarlarından istediğiniz zaman devre dışı bırakabilirsiniz.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Bilgilerinizi Nasıl Kullanıyoruz?</h2>
+      <ul>
+        <li>Temel harcama takibi ve borç denkleştirme işlevini sunmak için.</li>
+        <li>Bildirim iznini onayladıysanız, harcamalar, denkleşmeler ve arkadaş davetleri hakkında anlık bildirim göndermek için.</li>
+        <li>Paylaşılan oda üyelerinin görünen adınızı, avatarınızı ve isteğe bağlı olarak IBAN'ınızı görmesine olanak tanımak için.</li>
+        <li>Oda üyeleri arasındaki borç bakiyelerini hesaplamak ve göstermek için.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Üçüncü Taraf Hizmetler</h2>
+      <p>Denkleşelim aşağıdaki üçüncü taraf hizmetleri kullanmaktadır:</p>
+      <ul>
+        <li><strong>Supabase</strong> — Veritabanı, kimlik doğrulama ve dosya depolama. Veriler Supabase tarafından yönetilen altyapıda saklanır. Bkz. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Gizlilik Politikası</a>.</li>
+        <li><strong>Firebase Cloud Messaging (FCM)</strong> — Google tarafından sağlanan anlık bildirim servisi. Bkz. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Gizlilik Politikası</a>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Veri Paylaşımı</h2>
+      <p>Kişisel bilgilerinizi satmıyoruz. Harcama verileriniz, görünen adınız ve IBAN'ınız (sağlanmış ve görünür ise) yalnızca açıkça katıldığınız odaların diğer üyeleriyle paylaşılır.</p>
+      <p>Push token'ınız yalnızca bildirim göndermek amacıyla kullanılır; teslimat amacıyla FCM dışında üçüncü taraflarla paylaşılmaz.</p>
+    </section>
+
+    <section>
+      <h2>Veri Saklama ve Silme</h2>
+      <p>Verileriniz anonim hesabınız var olduğu sürece saklanır. E-posta tabanlı bir hesap olmadığından, silme işlemi cihazınızdaki uygulama verilerini sıfırlayarak veya bizimle iletişime geçilerek gerçekleştirilir.</p>
+      <p>Verilerinizin sunucularımızdan silinmesini istiyorsanız lütfen <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a> adresine yazın; verilerinizi derhal kaldıracağız.</p>
+    </section>
+
+    <section>
+      <h2>Çocukların Gizliliği</h2>
+      <p>Denkleşelim, 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz.</p>
+    </section>
+
+    <section>
+      <h2>Güvenlik</h2>
+      <p>Tüm veriler HTTPS üzerinden iletilmektedir. Veritabanımız, kullanıcıların yalnızca yetkili oldukları verilere erişebilmesini sağlamak için Satır Düzeyi Güvenlik (RLS) politikaları kullanmaktadır. Fiş fotoğrafları, yalnızca oda üyelerine erişilebilen özel bir depolama alanında saklanmaktadır.</p>
+    </section>
+
+    <section>
+      <h2>Bu Politikadaki Değişiklikler</h2>
+      <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler, yukarıdaki "Son güncelleme" tarihi güncellenerek yansıtılacaktır. Değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+    </section>
+
+    <section>
+      <h2>İletişim</h2>
+      <p>Bu Gizlilik Politikası hakkında sorularınız için lütfen <a href="mailto:sadeapps.help@gmail.com">sadeapps.help@gmail.com</a> adresinden bizimle iletişime geçin.</p>
+    </section>
+  </main>
+</body>
+</html>
